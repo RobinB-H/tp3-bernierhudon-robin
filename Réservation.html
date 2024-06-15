@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>BURGER SHOP</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+</head>	
+<body>	
+	<header>
+		<div class="container"> 
+			<div class="flexbox2">
+				<div>
+					<img src="img/logo.png" alt="img">
+				</div>
+				<div class="menu-mobile">
+					<span id="toggler" class="img-sanwich"><img src="img/menu-mobile.png" alt="img-sanwich"></span>
+					<div class="menu">
+						<div class="menu-container">
+							<div>
+								<nav class="menu-listing">
+									<a class="bouton" href="index.html">Menu</a>
+									<a class="bouton" href="Réservation.html">Réservation</a>
+									<a class="bouton" href="Restaurant.html">Restaurant</a>
+									<a class="bouton" href="Macommande.html">Ma commande</a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>
+					function toggler () {
+						const icon = document.querySelector("#toggler");
+						const menu = document.querySelector(".menu-mobile");
+						if (icon.innerHTLM == "menu") {
+							icon.innerHTLM = "close";
+							menu.style.display = "block";
+							x.style.display = "close"
+						} 
+						else {
+							x.style.display = "menu";
+							menu.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</div>
+	</header>						
+	<main>
+		<section class="container">
+			<h1>Réservation</h1>
+			<form class="form" action="Confirmation de votre réservation.html" method="post">
+				<div class="col-2-tiers" id="form">
+					<div class="flexbox2 form-item">
+						<label for="fnamelname">Pénom et nom: </label><br>
+						<input type="text" id="fnamelname" placeholder="Prénom Nom" required>
+					</div>
+					<div class="flexbox2 form-item">
+						<label for="phone">Téléphone: </label><br>
+						<input type="number" id="phone" placeholder="123-555-4567" required>
+					</div>
+					<div class="flexbox2 form-item">
+						<label for="numberperson">Nombre de personnes: </label><br>
+						<input type="number" id="number" required>
+					</div>
+					<div class="flexbox2 form-item">
+						<label for="date">La date de la réservation: </label><br>
+						<input type="date" id="date" required>
+					</div>
+					<div class="flexbox2 form-item" required>
+						<input type="radio" id="lieu">
+						<label for="Salle à manger">Salle à manger</label><br>
+						<input type="radio" id="lieu">
+						<label for="Terrasse">Terrasse</label>
+					</div>
+					<div class="flexbox2 form-item"id="form" required>
+						<input type="radio">
+						<label for="12:00">12:00</label><br>
+						<input type="radio">
+						<label for="12:30">12:30</label><br>
+						<input type="radio">
+						<label for="13:00">13:00</label><br>
+						<input type="radio">
+						<label for="13:30">13:30</label><br>
+						<input type="radio">
+						<label for="17:00">17:00</label><br>
+						<input type="radio">
+						<label for="17:30">17:30</label><br>
+						<input type="radio">
+						<label for="18:00">18:00</label><br>
+						<input type="radio">
+						<label for="18:30">18:30</label><br>
+						<input type="radio">
+						<label for="19:00">19:00</label><br>
+						<input type="radio">
+						<label for="19:30">19:30</label><br>
+						<input type="radio">
+						<label for="20:00">20:00</label><br>
+						<input type="radio">
+						<label for="20:30">20:30</label><br>
+						<input type="radio">
+						<label for="21:00">21:00</label><br>
+					</div>
+					<div class="flexbox2 form-item">
+						<label for="commentaires">Commentaires: </label><br>
+						<input type="text" id="commentaires">
+					</div>
+					<div class="flexbox2 form-item">
+						<label for="mail">Courriel: </label><br>
+						<input type="email" id="mail" placeholder="nom@mail.ca">
+					</div>
+					<div class="flexbox2 form-item">
+						<input type="checkbox" id="form">
+						<label for="checkbox">Réserver nos futures infolettres</label><br>
+					</div>
+				</div>
+				</section>
+					<div class="col-1-tiers-form container"> 
+						<input class="bouton" type="submit" value="Confirmation de votre réservation">
+					</div>
+				</section>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="flexbox3">
+				<div>
+					<h4><b class="big">Buger Shop :</b> 3175 Boulevard LavioletteTrois-Rivières, QC</h4>
+				</div>
+				<div>
+					<h4><a class="bouton" href="tel:+4181234567">418-123-4567</a></h4>
+				</div>
+			</div>
+		</div>
+		<Section class="section2">
+			<div class="container">
+				<Div>
+					<h4>Site réalisé par Robin Bernier-Hudon । Dans le cadre du cours Techniques d'intégration des interfaces Web - Cégep de Trois-Rivières.</h4>
+				</Div>
+			</div>
+		</Section>		
+	</footer>
+</body>
+
+</html>
