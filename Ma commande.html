@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>BURGER SHOP</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+</head>
+<body>
+	<header>
+		<div class="container"> 
+			<div class="flexbox2">
+				<div>
+					<img src="img/logo.png" alt="img">
+				</div>
+				<div class="menu-mobile">
+					<span id="toggler" class="img-sanwich"><img src="img/menu-mobile.png" alt="img-sanwich"></span>
+					<div class="menu">
+						<div class="menu-container">
+							<div>
+								<nav class="menu-listing">
+									<a class="bouton" href="index.html">Menu</a>
+									<a class="bouton" href="Réservation.html">Réservation</a>
+									<a class="bouton" href="Restaurant.html">Restaurant</a>
+									<a class="bouton" href="Macommande.html">Ma commande</a>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>
+					function toggler () {
+						const icon = document.querySelector("#toggler");
+						const menu = document.querySelector(".menu-mobile");
+						if (icon.innerHTLM == "menu") {
+							icon.innerHTLM = "close";
+							menu.style.display = "block";
+							x.style.display = "close"
+						} 
+						else {
+							x.style.display = "menu";
+							menu.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</div>
+	</header>								
+	<main>
+		<section>
+			<div class="container">
+				<h1>Ma commande</h1>
+				<div class="flex-col">
+					<div class="col-2-tiers"> 
+						<div class="flexbox2">
+							<Div>
+								<img src="img/right.png" alt="img">
+							</Div>
+							<Div>
+								<h1>BURGERS</h1>
+							</Div>
+						</div>
+						<div class="flexbox">
+							<Div class="alignitem">
+								<h2>Le Commodo । 9,99$</h2>
+							</Div>
+							<Div>
+								<h3>Quantité 1</h3>
+							</Div>
+						</div>
+						<div class="flexbox">
+							<Div class="alignitem">
+								<h2>Le Lorem । 12,99$</h2>
+							</Div>
+							<Div>
+								<h3>Quantité 1</h3>
+							</Div>
+						</div>
+						<HR class="HR">
+						<div class="flexbox2">
+							<Div>
+								<img src="img/right.png" alt="img">
+							</Div>
+							<Div>
+								<h1>BEIGNES</h1>
+							</Div>
+						</div>
+						<div class="flexbox">
+							<Div class="alignitem">
+								<h2>Le Etiam । 3,99$</h2>
+							</Div>
+								<Div class="float_right">
+									<h3>Quantité 1</h3>
+								</Div>
+						</div>
+						<HR class="HR">
+						<div class="flexbox">
+							<Div class="alignitem">
+								<h2>Le Maximus । 2,99$</h2>
+							</Div>
+							<Div>
+								<h3>Quantité 1</h3>
+							</Div>
+						</div>
+						<HR class="HR">
+					</div>
+					<div class="col-1-tiers"> 
+						<h1>Détails</h1>
+						<div class="flexbox">
+							<div>
+								<h3>Sous-total:</h3>
+							</div>
+							<div>
+								<h3>29,96$</h3>
+							</div>
+						</div>
+						<div class="flexbox">
+							<div>
+								<h3>Taxes:</h3>
+							</div>
+							<div>
+								<h3>4,49$</h3>
+							</div>
+						</div>
+						<HR class="HR">
+						<div class="flexbox">
+							<div>
+								<p><h3>Total:</h3>
+							</div>
+							<div>
+								<h3>34,45$</h3>
+							</div>
+						</div>
+						<div class="center">
+							<a class="bouton" href="#">Ajouter au panier</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<Section class="section2">
+			<div class="container">
+				<h1>LE T-SHIRT BURGER SHOP</h1>
+				<div class="flexbox2">
+					<div class="flex-cotes">
+						<div>
+							<ul class="flex-cotes">
+								<li class="center">
+									<nav>
+										<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+										<div class="center">
+											<a class="bouton" href="#">Ajouter au panier</a>
+										</div>
+									</nav>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<img src="img/t-shirt.png" alt="img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</Section>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="flexbox3">
+				<div>
+					<h4><b class="big">Buger Shop :</b> 3175 Boulevard LavioletteTrois-Rivières, QC</h4>
+				</div>
+				<div>
+					<h4><a class="bouton" href="tel:+4181234567">418-123-4567</a></h4>
+				</div>
+			</div>
+		</div>
+		<Section class="section2">
+			<div class="container">
+				<Div>
+					<h4>Site réalisé par Robin Bernier-Hudon । Dans le cadre du cours Techniques d'intégration des interfaces Web - Cégep de Trois-Rivières.</h4>
+				</Div>
+			</div>
+		</Section>		
+	</footer>
+</body>
